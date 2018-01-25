@@ -6,6 +6,11 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		48DB6BF6201A5E87004FEEF7 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48DB6BF4201A5E87004FEEF7 /* Controller.cpp */; };
+		48DB6BF8201A5EAE004FEEF7 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48DB6BF7201A5EAE004FEEF7 /* Runner.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		48DB6BE7201A5D74004FEEF7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		48DB6BE9201A5D74004FEEF7 /* SampleMiniProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SampleMiniProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DB6BF4201A5E87004FEEF7 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		48DB6BF5201A5E87004FEEF7 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		48DB6BF7201A5EAE004FEEF7 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,19 @@
 		48DB6BEB201A5D74004FEEF7 /* SampleMiniProject */ = {
 			isa = PBXGroup;
 			children = (
+				48DB6BF3201A5E73004FEEF7 /* Controller */,
 			);
 			path = SampleMiniProject;
+			sourceTree = "<group>";
+		};
+		48DB6BF3201A5E73004FEEF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48DB6BF4201A5E87004FEEF7 /* Controller.cpp */,
+				48DB6BF5201A5E87004FEEF7 /* Controller.hpp */,
+				48DB6BF7201A5EAE004FEEF7 /* Runner.cpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DB6BF6201A5E87004FEEF7 /* Controller.cpp in Sources */,
+				48DB6BF8201A5EAE004FEEF7 /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
